@@ -1,0 +1,8 @@
+Hello {{name}}
+    <p>Email: {{email}}</p>
+    <p>Address: {{address.street}} {{address.city}} , {{address.state}}
+    <h3>Posts</h3>
+    <div *ngFor="let post of posts">
+        <h3>{{post.title}}</h3>
+        <p>{{post.body}}</p>
+    </div>
